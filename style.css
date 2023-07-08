@@ -67,3 +67,16 @@ font-weight: bold;
 
 
 }
+
+.active{
+
+    background-color: var(--color-dark3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content{
+
+text-align: center;
+
+}
