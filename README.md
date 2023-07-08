@@ -1,1 +1,1 @@
-# responsive-header-sidebar-project
+# Projeto de responsividade com um header acompanhado de uma siderbar
