@@ -4,7 +4,7 @@ const navigationHeader = document.getElementById("navigation_header");
 let content = document.getElementById("content");
 let showSidebar = false;
 
-function toggleSideBar() {
+const toggleSideBar = () =>{
   showSidebar = !showSidebar;
 
   if (showSidebar) {
@@ -18,4 +18,26 @@ function toggleSideBar() {
 
 
   }
+}
+
+
+const closeSideBar = () =>{
+
+if(showSidebar){
+
+toggleSideBar();
+
+}
+
+window.addEventListener('resize',(event)=>{
+
+if(window.innerWidth > 768 && showSidebar){
+
+  toggleSideBar();
+
+}
+
+
+})
+
 }
